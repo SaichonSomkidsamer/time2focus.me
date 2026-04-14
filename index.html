@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  (function() {
+      const subdomain = window.location.hostname.split('.')[0];
+      const allowed = ['a01','a02','a03'];
+
+      if (allowed.includes(subdomain)) {
+          document.cookie = "user_segment=" + subdomain + "; domain=.mybetteryear.com; path=/; max-age=31536000; SameSite=Lax";
+      }
+  })();
+  </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Protected Portfolio Access | A01</title>
+
+
+    <link rel="Shortcut Icon" type="image/x-icon" href="img/Saichon.Favicon.ico/favicon.ico">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/plugins/slick/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom-pw.css" rel="stylesheet">
+
+    <style>
+        input, button {
+            padding: 10px;
+            font-size: 1em;
+            margin: 10px;
+        }
+        /* ปรับปรุงการจัดวางแทน <center> */
+        .img-wrapper { text-align: center; display: block; width: 100%; margin-bottom: 20px; }
+        .img-size { max-width: 100%; height: auto; }
+    </style>
+
+    <meta name="robots" content="noindex, nofollow, noimageindex">
+</head>
+
+<body class="landing-page">
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="img-wrapper">
+                    <a href="https://saichonsdesign.com/" target="_blank">
+                        <img class="img-size" src="img/landing/laptop-mint-pw.svg" alt="laptop">
+                    </a>
+                </div>
+
+                <div class="text-top-left-blue">A01</div>
+
+                <div class="font-top-left-black-h1">
+                    I’m an UX/UI Designer for Websites & Applications<br>
+                    <div class="text-top-left-black-normal">Since 2012 - Present</div><br>
+
+                    <div class="text-top-left-black-normal">
+                        This section is password-protected.<br>
+                        The projects here are real work samples I selectively share with trusted reviewers.<br>
+                        If you’ve received a password from me, please enter it below to
